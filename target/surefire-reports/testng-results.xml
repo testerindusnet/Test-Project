@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="51033" started-at="2016-06-06T13:32:18Z" finished-at="2016-06-06T13:33:09Z">
+  <suite name="Surefire suite" duration-ms="36888" started-at="2016-06-06T14:23:00Z" finished-at="2016-06-06T14:23:37Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="51033" started-at="2016-06-06T13:32:18Z" finished-at="2016-06-06T13:33:09Z">
+    <test name="Surefire test" duration-ms="36888" started-at="2016-06-06T14:23:00Z" finished-at="2016-06-06T14:23:37Z">
       <class name="com.webdriver.maventest.test.demoTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.webdriver.maventest.test.demoTest@391b0c]" name="f" duration-ms="1" started-at="2016-06-06T19:02:51Z" finished-at="2016-06-06T19:02:51Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.webdriver.maventest.test.demoTest@11eb50b]" name="f" duration-ms="1" started-at="2016-06-06T19:53:25Z" finished-at="2016-06-06T19:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.webdriver.maventest.test.demoTest -->
       <class name="com.webdriver.maventest.test.FirstTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.webdriver.maventest.test.FirstTest@11eb50b]" name="beforeTest" is-config="true" duration-ms="32992" started-at="2016-06-06T19:02:18Z" finished-at="2016-06-06T19:02:51Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.webdriver.maventest.test.FirstTest@10014f0]" name="beforeTest" is-config="true" duration-ms="25224" started-at="2016-06-06T19:53:00Z" finished-at="2016-06-06T19:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.webdriver.maventest.test.demoTest@391b0c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-06-06T19:02:51Z" finished-at="2016-06-06T19:02:51Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.webdriver.maventest.test.demoTest@11eb50b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-06-06T19:53:25Z" finished-at="2016-06-06T19:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="calculateValue()[pri:1, instance:com.webdriver.maventest.test.FirstTest@11eb50b]" name="calculateValue" duration-ms="2000" started-at="2016-06-06T19:02:51Z" finished-at="2016-06-06T19:02:53Z">
+        <test-method status="PASS" signature="calculateValue()[pri:0, instance:com.webdriver.maventest.test.FirstTest@10014f0]" name="calculateValue" duration-ms="2001" started-at="2016-06-06T19:53:25Z" finished-at="2016-06-06T19:53:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateValue -->
-        <test-method status="PASS" signature="ssertValue()[pri:2, instance:com.webdriver.maventest.test.FirstTest@11eb50b]" name="ssertValue" duration-ms="2000" started-at="2016-06-06T19:02:53Z" finished-at="2016-06-06T19:02:55Z">
+        <test-method status="PASS" signature="assertValue()[pri:1, instance:com.webdriver.maventest.test.FirstTest@10014f0]" name="assertValue" duration-ms="2001" started-at="2016-06-06T19:53:27Z" finished-at="2016-06-06T19:53:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ssertValue -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.webdriver.maventest.test.FirstTest@11eb50b]" name="afterTest" is-config="true" duration-ms="13925" started-at="2016-06-06T19:02:55Z" finished-at="2016-06-06T19:03:09Z">
+        </test-method> <!-- assertValue -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.webdriver.maventest.test.FirstTest@10014f0]" name="afterTest" is-config="true" duration-ms="7521" started-at="2016-06-06T19:53:29Z" finished-at="2016-06-06T19:53:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.webdriver.maventest.test.demoTest@391b0c]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-06-06T19:03:09Z" finished-at="2016-06-06T19:03:09Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.webdriver.maventest.test.demoTest@11eb50b]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-06-06T19:53:37Z" finished-at="2016-06-06T19:53:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

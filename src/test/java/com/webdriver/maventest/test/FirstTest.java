@@ -33,7 +33,7 @@ public class FirstTest {
 @AfterTest
   public void afterTest() {
 	
-	System.out.println("This is After Test Method");
+	System.out.println("After Test Method");
 	driver.quit();
   }
 
