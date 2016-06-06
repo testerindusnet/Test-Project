@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.webdriver.maventest.test.FirstTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.webdriver.maventest.test.FirstTest -->
+      <class name="com.webdriver.maventest.test.demoTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.webdriver.maventest.test.demoTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
