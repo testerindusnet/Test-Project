@@ -10,14 +10,14 @@ public class FirstTest {
 	
 	public WebDriver driver;  
 	
-  @Test(priority=1)
+  @Test(priority=0)
   public void calculateValue() throws Exception {
 	  
 	  System.out.println("This is Test Method1");
 	  Thread.sleep(2000);
   }
   
-  @Test(priority=2)
+  @Test(priority=1)
   public void assertValue() throws Exception {
 	  
 	  System.out.println("This is Test Method2");
