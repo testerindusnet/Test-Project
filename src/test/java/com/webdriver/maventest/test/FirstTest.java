@@ -18,7 +18,7 @@ public class FirstTest {
   }
   
   @Test(priority=2)
-  public void ssertValue() throws Exception {
+  public void assertValue() throws Exception {
 	  
 	  System.out.println("This is Test Method2");
 	  Thread.sleep(2000);
