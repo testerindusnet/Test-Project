@@ -13,6 +13,8 @@ public class FirstTest {
   @Test(priority=0)
   public void calculateValue() throws Exception {
 	  
+	  driver=new FirefoxDriver();
+	  driver.get("https://purebenefits.offshoresoftwaresolutions.net/");
 	  System.out.println("This is Test Method1");
 	  Thread.sleep(2000);
   }
@@ -26,8 +28,7 @@ public class FirstTest {
   @BeforeTest
   public void beforeTest() {
 	  
-	  driver=new FirefoxDriver();
-	  driver.get("https://purebenefits.offshoresoftwaresolutions.net/");
+	  System.out.println("Before");
   }
 
 @AfterTest
